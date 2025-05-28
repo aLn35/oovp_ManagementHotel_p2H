@@ -1,0 +1,21 @@
+# Ignore build and dist folders
+build/
+dist/
+
+# Ignore class and log files
+*.class
+*.log
+*.jar
+
+# Ignore NetBeans local settings
+nbproject/private/
+nbbuild/
+nbdist/
+*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Ignore PDF or local-only files (optional)
+*.pdf

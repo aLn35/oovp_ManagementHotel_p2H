@@ -1,0 +1,115 @@
+[33mcommit 2653e4d5314e5c07be065dc9244c26781e01b742[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: you're gorgeous <ASUS@AMARILLYS.aLn>
+Date:   Wed May 28 20:55:47 2025 +0700
+
+    Fix: Add .gitignore and clean unnecessary files
+
+ .gitignore                                         |   21 [32m+[m
+ Bill_104.pdf                                       |   40 [31m-[m
+ build/classes/.netbeans_automatic_build            |    0
+ build/classes/.netbeans_update_resources           |    0
+ build/classes/finalproject/BillDetails$1.class     |  Bin [31m828[m -> [32m0[m bytes
+ build/classes/finalproject/BillDetails$2.class     |  Bin [31m828[m -> [32m0[m bytes
+ build/classes/finalproject/BillDetails$3.class     |  Bin [31m828[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$1.class     |  Bin [31m1175[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$10.class    |  Bin [31m806[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$11.class    |  Bin [31m810[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$12.class    |  Bin [31m942[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$13.class    |  Bin [31m814[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$14.class    |  Bin [31m806[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$15.class    |  Bin [31m808[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$16.class    |  Bin [31m940[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$17.class    |  Bin [31m812[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$18.class    |  Bin [31m801[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$19.class    |  Bin [31m801[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$2.class     |  Bin [31m781[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$20.class    |  Bin [31m805[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$21.class    |  Bin [31m796[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$22.class    |  Bin [31m796[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$23.class    |  Bin [31m1199[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$24.class    |  Bin [31m788[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$25.class    |  Bin [31m574[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$3.class     |  Bin [31m809[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$4.class     |  Bin [31m813[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$5.class     |  Bin [31m802[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$6.class     |  Bin [31m801[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$7.class     |  Bin [31m803[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$8.class     |  Bin [31m803[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$9.class     |  Bin [31m802[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom$Room.class  |  Bin [31m784[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom.class       |  Bin [31m22787[m -> [32m0[m bytes
+ build/classes/finalproject/BookingRoom.form        |  522 [31m----[m
+ build/classes/finalproject/Checkout$1.class        |  Bin [31m785[m -> [32m0[m bytes
+ build/classes/finalproject/Checkout$2.class        |  Bin [31m786[m -> [32m0[m bytes
+ build/classes/finalproject/Checkout$3.class        |  Bin [31m781[m -> [32m0[m bytes
+ build/classes/finalproject/Checkout$4.class        |  Bin [31m793[m -> [32m0[m bytes
+ build/classes/finalproject/Checkout$5.class        |  Bin [31m785[m -> [32m0[m bytes
+ build/classes/finalproject/Checkout$6.class        |  Bin [31m560[m -> [32m0[m bytes
+ build/classes/finalproject/Checkout$7.class        |  Bin [31m560[m -> [32m0[m bytes
+ build/classes/finalproject/Checkout.class          |  Bin [31m18936[m -> [32m0[m bytes
+ build/classes/finalproject/Checkout.form           |  447 [31m----[m
+ build/classes/finalproject/Dashboard$1.class       |  Bin [31m791[m -> [32m0[m bytes
+ build/classes/finalproject/Dashboard$2.class       |  Bin [31m789[m -> [32m0[m bytes
+ build/classes/finalproject/Dashboard$3.class       |  Bin [31m791[m -> [32m0[m bytes
+ build/classes/finalproject/Dashboard.class         |  Bin [31m6928[m -> [32m0[m bytes
+ build/classes/finalproject/Dashboard.form          |  155 [31m--[m
+ build/classes/finalproject/Frame1$1.class          |  Bin [31m756[m -> [32m0[m bytes
+ build/classes/finalproject/Frame1$2.class          |  Bin [31m557[m -> [32m0[m bytes
+ build/classes/finalproject/HelpPage$1.class        |  Bin [31m560[m -> [32m0[m bytes
+ build/classes/finalproject/HelpPage.class          |  Bin [31m4689[m -> [32m0[m bytes
+ build/classes/finalproject/HelpPage.form           |   35 [31m-[m
+ build/classes/finalproject/Login$1.class           |  Bin [31m770[m -> [32m0[m bytes
+ build/classes/finalproject/Login$2.class           |  Bin [31m767[m -> [32m0[m bytes
+ build/classes/finalproject/Login$3.class           |  Bin [31m767[m -> [32m0[m bytes
+ build/classes/finalproject/Login$4.class           |  Bin [31m548[m -> [32m0[m bytes
+ build/classes/finalproject/Login.class             |  Bin [31m8935[m -> [32m0[m bytes
+ build/classes/finalproject/Login.form              |  176 [31m--[m
+ build/classes/finalproject/Ma$1.class              |  Bin [31m735[m -> [32m0[m bytes
+ build/classes/finalproject/Ma$2.class              |  Bin [31m636[m -> [32m0[m bytes
+ build/classes/finalproject/Ma.class                |  Bin [31m8758[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$1.class      |  Bin [31m775[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$10.class     |  Bin [31m800[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$11.class     |  Bin [31m795[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$12.class     |  Bin [31m1380[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$13.class     |  Bin [31m1197[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$14.class     |  Bin [31m2748[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$15.class     |  Bin [31m792[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$16.class     |  Bin [31m570[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$2.class      |  Bin [31m771[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$3.class      |  Bin [31m768[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$4.class      |  Bin [31m960[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$5.class      |  Bin [31m793[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$6.class      |  Bin [31m795[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$7.class      |  Bin [31m797[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$8.class      |  Bin [31m799[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom$9.class      |  Bin [31m798[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom.class        |  Bin [31m18268[m -> [32m0[m bytes
+ build/classes/finalproject/ManageRoom.form         |  377 [31m---[m
+ build/classes/finalproject/ReadMe.md               |  112 [31m-[m
+ .../classes/finalproject/p2h_attribute/CheckIn.png |  Bin [31m2424[m -> [32m0[m bytes
+ .../finalproject/p2h_attribute/CheckOut.png        |  Bin [31m2445[m -> [32m0[m bytes
+ .../finalproject/p2h_attribute/Homepage.jpg        |  Bin [31m563470[m -> [32m0[m bytes
+ .../classes/finalproject/p2h_attribute/LogOut.png  |  Bin [31m535[m -> [32m0[m bytes
+ .../finalproject/p2h_attribute/ManageRoom.png      |  Bin [31m1723[m -> [32m0[m bytes
+ .../finalproject/p2h_attribute/Statistika (1).png  |  Bin [31m16260[m -> [32m0[m bytes
+ build/classes/finalproject/p2h_attribute/allbg.jpg |  Bin [31m34633[m -> [32m0[m bytes
+ build/classes/finalproject/p2h_attribute/bill.png  |  Bin [31m613[m -> [32m0[m bytes
+ build/classes/finalproject/p2h_attribute/close.png |  Bin [31m1338[m -> [32m0[m bytes
+ .../classes/finalproject/p2h_attribute/loginbg.jpg |  Bin [31m55544[m -> [32m0[m bytes
+ .../matcha green laptop wallpaper.jpg              |  Bin [31m5358[m -> [32m0[m bytes
+ build/classes/frame1$1.class                       |  Bin [31m708[m -> [32m0[m bytes
+ build/classes/frame1$2.class                       |  Bin [31m513[m -> [32m0[m bytes
+ hs_err_pid17004.log                                |  578 [31m----[m
+ hs_err_pid25940.log                                |  638 [31m-----[m
+ ...beans-modules-java-j2seproject-copylibstask.jar |  Bin [31m111137[m -> [32m0[m bytes
+ lib/absolutelayout/AbsoluteLayout.jar              |  Bin [31m10668[m -> [32m0[m bytes
+ lib/itextpdf-5.5.13.3.jar                          |  Bin [31m2334491[m -> [32m0[m bytes
+ lib/jcalendar-1.4.jar                              |  Bin [31m165052[m -> [32m0[m bytes
+ lib/mysql-connector-j-9.2.0.jar                    |  Bin [31m2609756[m -> [32m0[m bytes
+ lib/rs2xml.jar                                     |  Bin [31m171578[m -> [32m0[m bytes
+ nbproject/private/config.properties                |    0
+ nbproject/private/private.properties               |    8 [31m-[m
+ nbproject/private/private.xml                      |   13 [31m-[m
+ replay_pid17004.log                                | 1758 [31m-------------[m
+ replay_pid25940.log                                | 2759 [31m--------------------[m
+ 108 files changed, 21 insertions(+), 7618 deletions(-)
