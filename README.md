@@ -1,8 +1,9 @@
 # oovp_ManagementHotel_p2H
-Object Oriented Visual Programming 
+
 
 
 # Hotel Management System
+Object Oriented Visual Programming 
 
 This Java-based Hotel Management System is a desktop application designed to handle room data, bookings, check-in, and check-out processes efficiently. Built with Java Swing (GUI) and MySQL, the system includes multiple functional modules for administrators to manage hotel operations smoothly.
 
